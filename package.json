@@ -1,0 +1,38 @@
+{
+  "name": "react-datepicker",
+  "version": "1.0.0",
+  "description": "@react-datepicker",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "git+https://github.com/JustFly1984/react-datepicker.git",
+  "keywords": [
+    "react",
+    "react-datepicker",
+    "react-accessible-datepicker",
+    "css-modules",
+    "accessibility",
+    "@react-datepicker"
+  ],
+  "author": "Alexey Lyakhov <justly1984@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustFly1984/react-datepicker/issues"
+  },
+  "homepage": "https://github.com/JustFly1984/react-datepicker#readme",
+  "private": false,
+  "dependencies": {},
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "npx eslint --fix",
+        "git add -A"
+      ]
+    }
+  },
+  "devDependencies": {
+    "lerna": "^3.10.7",
+    "lint-staged": "^8.1.3"
+  }
+}
